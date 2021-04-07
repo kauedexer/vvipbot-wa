@@ -15,14 +15,14 @@ const menu = require("./lib/menu.js")
 
 const apivhtear = 'Apikey vhtear';
 const apibarbar = 'Apikey mhankbarbar';
-const BotName = 'VVIPINDO BOT'; 
-const instagram = 'agus_alnsyh71- kaelMk_'; 
+const BotName = 'TESTE'; 
+const instagram = 'cj'; 
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Agus\n' // Nama kamu
             + 'ORG:VVIPINDO;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=5511934515600 119-3451-5600\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -230,7 +230,7 @@ axios.get(`https://api.vhtear.com/artimimpi?query=${teks}&apikey=${apivhtear}`).
 })
 }
 
- //Brainly 
+ //Brainly +
 if (text.includes('.Brainly')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
